@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.dev-icons .list-inline-item {
+  display: inline-block;
+  border: 1px solid #F1F1F1;
+  padding: 20px;
+  border-radius: 3px; margin-bottom: 10px;
+}
+
+.dev-icons .list-inline-item i{
+  width: 60px; text-align: center;
+}
+
+.dev-icons .list-inline-item p{
+  text-align: center;
+  font-size: 14px; margin: 0;
+}
+
+.skills-list{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.skills-list img{
+  width: 48px;
+  margin-right: 20px;
+}
+
+ul.tools-list img{
+  width: 42px;
+  margin-top: -10px;
+}
+
+ul.tools-list li{
+  text-align: center;
+}
